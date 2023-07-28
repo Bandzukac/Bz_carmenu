@@ -2,8 +2,6 @@
 local player = PlayerPedId()
 local vehicle = GetVehiclePedIsIn(player, false)
 
-ESX = exports["es_extended"]:getSharedObject()
-
 RegisterKeyMapping("carmenu", "Otevřít Menu Auta", "keyboard", "F5")--Default bind F5 choose on your choice
 
 function OpenCarMenu()
